@@ -98,13 +98,8 @@ python app.py
 </figcaption>
 </div>
 
-* 测试作者给的Library以及room0数据集的效果如下：
-
-更多可视化效果请见[博客](https://kwanwaipang.github.io/SLAM3R/)
-
-* 先测试室外经典的train数据看看
 
 
-* 然后测试自己的数据集看看(注意，单张图片或者两张图片都是不能成功的，应该是对于input window的radius有关，默认设置为5)
+实验测试的可视化效果请见[博客](https://kwanwaipang.github.io/SLAM3R/)
 
-将`the radius of the input window`和`the number of frames for initialization`改为2看看两个视角下的效果：
+
