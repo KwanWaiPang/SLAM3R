@@ -4,7 +4,7 @@
 # set the img_dir below to the directory of the set of images you want to reconstruct
 # set the postfix below to the format of the rgb images in the img_dir
 ######################################################################################
-TEST_DATASET="Seq_Data(img_dir='data/wild/Library', postfix='.png', \
+TEST_DATASET="Seq_Data(img_dir='dataset/Library/Library', postfix='.png', \
 img_size=224, silent=False, sample_freq=1, \
 start_idx=0, num_views=-1, start_freq=1, to_tensor=True)"
 

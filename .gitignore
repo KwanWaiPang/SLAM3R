@@ -136,3 +136,12 @@
 
 # # Pyre type checker
 # .pyre/
+
+
+*.zip
+*.so
+*.o
+dataset/*
+
+results/*
+*.pyc
