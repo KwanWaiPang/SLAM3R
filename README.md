@@ -75,7 +75,7 @@ bash scripts/demo_vis_wild.sh
 * 结果会存放在`./results/`文件中
 
 <div align="center">
-  <img src="./Figs/微信截图_20250319142906.png" width="80%" />
+  <img src="./Figs/微信截图_20250319142906.png" width="50%" />
 <figcaption>  
 </figcaption>
 </div>
@@ -85,7 +85,26 @@ bash scripts/demo_vis_wild.sh
 
 ## 采用Gradio interface测试
 
-运行下面代码
+vscode运行下面代码
 ```bash
+conda activate slam3r 
 python app.py
 ```
+然后打开页面，如下：
+
+<div align="center">
+  <img src="./Figs/微信截图_20250319143335.png" width="80%" />
+<figcaption>  
+</figcaption>
+</div>
+
+* 测试作者给的Library以及room0数据集的效果如下：
+
+更多可视化效果请见[博客](https://kwanwaipang.github.io/SLAM3R/)
+
+* 先测试室外经典的train数据看看
+
+
+* 然后测试自己的数据集看看(注意，单张图片或者两张图片都是不能成功的，应该是对于input window的radius有关，默认设置为5)
+
+将`the radius of the input window`和`the number of frames for initialization`改为2看看两个视角下的效果：

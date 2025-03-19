@@ -145,3 +145,4 @@ dataset/*
 
 results/*
 *.pyc
+tmp/*
